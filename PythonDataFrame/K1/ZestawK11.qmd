@@ -1,0 +1,62 @@
+---
+title: "Wizualizacja danych (2023N)  \n- Egzamin - termin zerowy - Zestaw K11"
+lang: pl
+editor: visual
+format: pdf
+---
+
+*Zadanie 1 i 2 po 15 pkt. Zadanie 3 - 20 pkt.*
+
+*Punktacja: 46-50 pkt - bdb(5,0); 41-45 pkt - db+(4,5); 36-40 pkt - db(4,0); 31-35 pkt - dst+(3,5); 26-30 pkt - dst(3,0); 0-25 pkt - ndst (2,0).*
+
+**To jest egzamin zerowy. Z uzyskanej oceny można zrezygnować przychodząc na pierwszy termin egzaminu. Uzyskana ocena będzie wiążąca po uzyskaniu pozytywnej oceny z ćwiczeń.**
+
+Rozwiązania mają być umieszczone zgodnie ze specyfikacją:
+
+-   Zadania powinny być umieszczone w archiwum .zip na udostępnionym pendrive.
+
+-   Nazwa archiwum powinna być wg schematu NUMERZESTAWU_NUMERALBUMU.zip gdzie numer zestawu znajduje się na górze kartki z poleceniami. np. A23_123456.zip
+
+-   We wnętrzu archiwum powinny znajdować się tylko same kody w języku Python, pliki powinny posiadać dokładnie nazwy (z uwzględnieniem wielkości znaków): `zad1.py`, `zad2.py`, `zad3.py`.
+
+-   Minimalna wersja Python to 3.8. Wykresy powinny bazować na bibliotece matplotlib lub seaborn lub innych bibliotekach bazujących na nich.
+
+-   Maksymalna waga archiwum 10 MB.
+
+-   Archiwum powinno być bez hasła.
+
+-   W przypadku pominięcie danego zadania, należy dodać plik o nazwie sprecyzowanej wyżej (zawartość może być pusta).
+
+*Za zachowanie specyfikacji dokładnie otrzymuję się dodatkowe 2 punkty. Zadania znacznie odbiegające od specyfikacji mogą nie być sprawdzane.*
+
+Polecenia są na odwrocie.
+
+\pagebreak
+
+Zad.1. Odwzoruj wykres znajdujący się w pliku graficznym k1.png znajdującym się folderze. Odcienie kolorów mogą się różnić, jednak główne barwy muszą być zachowane. Zapisz powstały wykres w formacie pdf.
+
+Zad.2. W jednym pliku wykonaj poniższe czynności:
+
+-   załaduj dane z pliku turcja.xlsx jako ramkę danych (Data Frame),
+-   wybierz dane za dotyczące miasta Ankara (kolumna `city`)
+-   wykonaj wykres słupkowy dot. miasta Ankara za lata 2005-2010 (włącznie) prezentującą dane o populacji (kolumna `pop`)
+
+Wykres powinien być estetyczny i podpisany. Im więcej - tym lepiej.
+
+Zapisz wykres w formacie jpg za pomocą kodu.
+
+Zad.3. W jednym pliku wykonaj poniższe czynności:
+
+-   załaduj dane z pliku stacjepaliw.xlsx,
+-   uporządkuj dane tak, aby dane liczbowe były zgodne z koncepcją "czystych danych"
+-   do oddzielnych zmiennych za województwo śląskie i małopolskie
+-   stwórz wykres liniowy prezentujące dane z poprzednie punktu, oddzielna linia na województwo, na osi poziomej lata
+-   Wykres powinien być estetyczny i podpisany. Im więcej - tym lepiej.
+
+Zapisz wykres w formacie png za pomocą kodu.
+
+Źródło danych:
+
+-   https://www.kaggle.com/datasets/picbidervis/turkey-cities, dostęp online 10.05.2023.
+-   Bank Danych Lokalnych, dostęp online 10.05.2023.
+-   https://www.wirtualnemedia.pl/artykul/rmf-fm-liderem-ale-traci-najwiecej-supernova-radio-maryja-i-pogoda-z-najwiekszymi-wzrostami, dostęp online 18.05.2023.
